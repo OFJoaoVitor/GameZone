@@ -1,0 +1,67 @@
+/* Fundo do site igual ao da imagem */
+body {
+    margin: 0;
+    background-color: #1a1a1b; /* cinza escuro */
+    color: #d7dadc;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Footer fixo no canto inferior direito */
+  .gamezone-footer {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    font-size: 12px;
+    color: #d7dadc;
+    text-align: right;
+    background-color: transparent;
+    z-index: 1000;
+  }
+  
+  .gamezone-footer-content .link-row {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 4px;
+  }
+  
+  .gamezone-footer-content .link-row a {
+    color: #a259ff; /* roxo vibrante */
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .gamezone-footer-content .link-row a:hover {
+    text-decoration: underline;
+    color: #c084fc; /* roxo mais claro ao passar o mouse */
+  }
+  
+  .gamezone-footer p {
+    margin: 5px 0 0 0;
+    font-size: 12px;
+    color: #999;
+  }
+  
+  /* Responsivo para celular */
+  @media (max-width: 600px) {
+    .gamezone-footer {
+      right: 20px;
+      bottom: 20px;
+      font-size: 11px;
+    }
+  
+    .gamezone-footer-content .link-row {
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+    }
+  
+    .gamezone-footer-content .link-row a {
+      font-size: 11px;
+    }
+  
+    .gamezone-footer p {
+      font-size: 11px;
+    }
+  }
+  
