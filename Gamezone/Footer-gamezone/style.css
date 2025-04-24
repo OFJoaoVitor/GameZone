@@ -1,12 +1,10 @@
-/* Fundo do site igual ao da imagem */
 body {
     margin: 0;
-    background-color: #1a1a1b; /* cinza escuro */
+    background-color: #1a1a1b; 
     color: #d7dadc;
     font-family: Arial, sans-serif;
   }
   
-  /* Footer fixo no canto inferior direito */
   .gamezone-footer {
     position: fixed;
     bottom: 30px;
@@ -26,42 +24,20 @@ body {
   }
   
   .gamezone-footer-content .link-row a {
-    color: #a259ff; /* roxo vibrante */
+    color: #a259ff; 
     text-decoration: none;
     font-size: 12px;
   }
   
   .gamezone-footer-content .link-row a:hover {
     text-decoration: underline;
-    color: #c084fc; /* roxo mais claro ao passar o mouse */
+    color: #c084fc; 
   }
   
   .gamezone-footer p {
     margin: 5px 0 0 0;
     font-size: 12px;
     color: #999;
-  }
-  
-  /* Responsivo para celular */
-  @media (max-width: 600px) {
-    .gamezone-footer {
-      right: 20px;
-      bottom: 20px;
-      font-size: 11px;
-    }
-  
-    .gamezone-footer-content .link-row {
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 2px;
-    }
-  
-    .gamezone-footer-content .link-row a {
-      font-size: 11px;
-    }
-  
-    .gamezone-footer p {
-      font-size: 11px;
-    }
+    text-decoration: underline;
   }
   
